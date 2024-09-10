@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+video {
+  width: 200px;
+  height: auto;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: beige;
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+/* Tables */
+.anime {
+  margin: 0 auto;
+  border: 3px solid rgb(228, 124, 124);
+}
+
+.item {
+  border: 1px solid black;
+}

@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  font-size: 20px;
+  list-style: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+}
+
+/* NavBar */
+.navbar {
+  background-color: bisque;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 10px;
+}
+
+/* Steps */
+.steps {
+  background-color: white;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.item {
+  border-bottom: 2px solid black;
+}
+
+/* List */
+.list {
+  background-color: white;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+  width: auto;
+  overflow: auto;
+}
+
+/* Life */
+.life {
+  display: flex;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 20px;
+  background-color: beige;
+}
+
+.card {
+  border: 3px solid red;
+  margin: 15px;
+}
