@@ -10,6 +10,7 @@ body {
 
 a {
   text-decoration: none;
+  color: red;
 }
 
 .hidden{
@@ -55,15 +56,17 @@ a {
 
 @media only screen and (max-width: 400px) {
   
-  /* Menu */
-  .links {
+  .hidden{
     display: none;
   }
 
-  .hidden{
-    display: block;
+  /* Menu */
+  .ul-links{
+    background-color: bisque;
+    padding: 5px;
   }
 
+
   /* Content */
-  
+
 }
