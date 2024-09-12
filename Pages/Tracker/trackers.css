@@ -22,7 +22,8 @@ video {
 
 img {
   width: 200px;
-  height: 500px;
+  height: 200px;
+  border: 2px solid black;
 }
 
 .hidden {
@@ -52,6 +53,15 @@ img {
   height: 250px;
   margin: 5px;
   margin-top: 20px;
+}
+
+.manga-container{
+  border: 3px solid black;
+  background-color: blanchedalmond;
+  height: 300px;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .info{
