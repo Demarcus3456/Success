@@ -15,13 +15,14 @@ a {
 }
 
 video {
-  width: 200px;
+  width: 300px;
   height: auto;
+  border: 5px solid red;
 }
 
 img {
   width: 200px;
-  height: 300px;
+  height: 500px;
 }
 
 .hidden {
@@ -44,7 +45,23 @@ img {
   gap: 10px;
 }
 
+/* Cards */
+.container{
+  border: 3px solid black;
+  background-color: blanchedalmond;
+  height: 250px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.info{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
 /* Tables */
+
 .anime {
   margin: 0 auto;
   border: 3px solid rgb(228, 124, 124);
@@ -52,4 +69,8 @@ img {
 
 .item {
   border: 1px solid black;
+}
+
+@media only screen and (max-width: 400px) {
+
 }
