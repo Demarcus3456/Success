@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+.hidden{
+  display: none;
+}
+
 /* NavBar */
 .navbar {
   background-color: bisque;
@@ -47,4 +51,19 @@ a {
   width: 100%;
   padding: 20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  
+  /* Menu */
+  .links {
+    display: none;
+  }
+
+  .hidden{
+    display: block;
+  }
+
+  /* Content */
+  
 }
