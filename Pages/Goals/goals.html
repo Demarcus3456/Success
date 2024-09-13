@@ -11,11 +11,11 @@
   <body>
     <header>
       <nav class="navbar">
-        <div>
-          <a href="/index.html"><button>Home</button></a>
-        </div>
-        <div>
+        <h1>Goals</h1>
+        <button>Menu</button>
+        <div class="hidden">
           <ul class="nav-list">
+            <a href="/index.html"><li>Home</li></a>
             <a href="/Pages/Projects/projects.html"><li>Projects</li></a>
             <a href="/Pages/Roadmap/roadmaps.html"><li>Roadmaps</li></a>
             <a href="/Pages/Tracker/tracker.html"><li>Trackers</li></a>
@@ -27,18 +27,36 @@
     <main>
       <!-- Steps I must take for each goal -->
       <section class="steps">
+      <div class="step-menu">
+        <div class="step-btns">
+          <button class="step-back">Back</button>
+          <ul>
+            <li><a><img src='#' alt="1"></a></li>
+            <li><a><img src='#' alt="2"></a></li>
+            <li><a><img src='#' alt="3"></a></li>
+            <li><a><img src='#' alt="4"></a></li>
+            <li><a><img src='#' alt="5"></a></li>
+            <li><a><img src='#' alt="6"></a></li>
+            <li><a><img src='#' alt="7"></a></li>
+            <li><a><img src='#' alt="8"></a></li>
+            <li><a><img src='#' alt="9"></a></li>
+            <li><a><img src='#' alt="10"></a></li>
+          </ul>
+        </div>
+      </div>       
+      <div class="hidden steps-list">
         <h1>Steps</h1>
         <ol>
-          <li class="item">1. Get a piece of paper</li>
-          <li class="item">2. Where I currently am in my life</li>
-          <li class="item">3. Write my goals and dreams</li>
-          <li class="item">4. Circle one goal goal most important to me</li>
-          <li class="item">5. Why this goal is important to me</li>
-          <li class="item">6. 1-3-5 steps to achive that goal</li>
-          <li class="item">
+          <li class="item" id="1">1. Get a piece of paper</li>
+          <li class="item" id="2">2. Where I currently am in my life</li>
+          <li class="item" id="3">3. Write my goals and dreams</li>
+          <li class="item" id="4">4. Circle one goal goal most important to me</li>
+          <li class="item" id="5">5. Why this goal is important to me</li>
+          <li class="item" id="6">6. 1-3-5 steps to achive that goal</li>
+          <li class="item" id="7">
             7. Be specific about that goal what, when and where
           </li>
-          <li class="item">
+          <li class="item" id="8">
             8. Turnsteps into habits
             <ol>
               <li class="item">A. Start small</li>
@@ -53,13 +71,14 @@
               <li>J. Take action</li>
             </ol>
           </li>
-          <li class="item">9. Adjusting</li>
-          <li class="item">10. Forget about the goal and focus on a system</li>
+          <li class="item" id="9">9. Adjusting</li>
+          <li class="item" id="10">10. Forget about the goal and focus on a system</li>
         </ol>
+      </div>
       </section>
 
       <!-- Goals layout -->
-      <section class="list">
+      <section class="list hidden">
         <div>
           <h1>Goals List</h1>
           <div>
@@ -91,21 +110,21 @@
 
       <!-- Where I am at in life -->
       <section class="life">
-        <div class="container">
+        <div class="container hidden">
           <h1>Heath</h1>
           <p>
             Im currently over weight '200.4' where im starting to noticed rashes
             on my skin and low energy where it cause me to be sore.
           </p>
         </div>
-        <div class="container">
+        <div class="container hidden">
           <h1>Self - Care</h1>
           <p>
             My body is a mess. Hair is damage, teeth is losing its color and
             slowy detrating & face is sheding during the day.
           </p>
         </div>
-        <div class="container">
+        <div class="container hidden">
           <h1>Self Development</h1>
           <p>
             Im lacking in hobbies as each day im always looking for something to
@@ -113,7 +132,7 @@
             me from my primary goals in being better then i was yesterday.
           </p>
         </div>
-        <div class="container">
+        <div class="container hidden">
           <h1>Career</h1>
           <p>
             Im struggling currently where I have to work jobs I dont like just
@@ -124,7 +143,7 @@
       </section>
 
       <!-- Why is this goal important -->
-      <section class="goals">
+      <section class="goals hidden">
         <div class="card" style="width: 18rem">
           <div class="card-body">
             <h5 class="card-title">Self - Care</h5>
@@ -138,6 +157,17 @@
         </div>
       </section>
     </main>
+    <footer>
+      <nav class="hidden nav-mobile">
+        <ul class="mobile-list">
+          <li><a href="#" class="menu-item">step</a></li>
+          <li><a href="#" class="menu-item">list</a></li>
+          <li><a href="#" class="menu-item">note</a></li>
+          <li><a href="#" class="menu-item">road</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="goals.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
