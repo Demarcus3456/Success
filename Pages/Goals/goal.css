@@ -59,7 +59,8 @@ img {
 }
 
 .item {
-  border-bottom: 2px solid black;
+  border: 2px solid black;
+  padding: 10px;
 }
 
 /* List */
