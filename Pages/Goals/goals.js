@@ -5,6 +5,15 @@ const stepList = document.querySelector(".steps-list");
 const stepMenu = document.querySelector(".step-menu");
 const stepBtn = document.querySelector(".step-btn");
 
+const goals = document.querySelector(".goals");
+const life = document.querySelector(".life");
+const steps = document.querySelector(".steps");
+const list = document.querySelector(".list");
+const goalsBtn = document.querySelector(".goals-btn");
+const lifeBtn = document.querySelector(".life-btn");
+const stepsBtn = document.querySelector(".steps-btn");
+const listBtn = document.querySelector(".list-btn");
+
 const oneBtn = document.querySelector(".oneBtn");
 const twoBtn = document.querySelector(".twoBtn");
 const threeBtn = document.querySelector(".threeBtn");
@@ -197,4 +206,36 @@ tenBtn.addEventListener("click", function () {
   ten.classList.remove("hidden");
   stepMenu.classList.add("hidden");
   stepList.classList.remove("hidden");
+});
+
+/* Opens Steps */
+stepsBtn.addEventListener("click", function () {
+  life.classList.add("hidden");
+  goals.classList.add("hidden");
+  list.classList.add("hidden");
+  steps.classList.remove("hidden");
+});
+
+/* Opens Lists */
+listBtn.addEventListener("click", function () {
+  life.classList.add("hidden");
+  goals.classList.add("hidden");
+  list.classList.remove("hidden");
+  steps.classList.add("hidden");
+});
+
+/* Opens Life */
+lifeBtn.addEventListener("click", function () {
+  life.classList.remove("hidden");
+  goals.classList.add("hidden");
+  list.classList.add("hidden");
+  steps.classList.add("hidden");
+});
+
+/* Opens Goals */
+goalsBtn.addEventListener("click", function () {
+  life.classList.add("hidden");
+  goals.classList.remove("hidden");
+  list.classList.add("hidden");
+  steps.classList.add("hidden");
 });
