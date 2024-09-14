@@ -114,9 +114,8 @@ img {
   /* Steps */
   .step-btns {
     width: 320px;
-    height: 515px;
+    height: 100%;
     padding: 10px;
-    overflow: auto;
     display: flex;
     flex-direction: column;
   }
