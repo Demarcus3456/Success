@@ -39,7 +39,12 @@ main {
 }
 
 .icon {
-  width: 35px;
+  width: 40px;
+  height: 35px;
+}
+
+.vision-text {
+  margin-bottom: 40px;
 }
 
 section {
