@@ -38,6 +38,10 @@ main {
   align-items: center;
 }
 
+.icon {
+  width: 35px;
+}
+
 section {
   width: 150px;
   height: 200px;
