@@ -9,13 +9,17 @@
   <body>
     <header>
       <nav>
-        <img src="/Addons/imgs/vision/self.jpg" alt="Vision Board" />
         <h1>Self - Care</h1>
-        <a href="/Pages/Roadmap/roadmaps.html"><button>Home</button></a>
+        <a href="/Pages/Goals/goals.html"><button>Home</button></a>
       </nav>
     </header>
     <main>
-      <section>
+      <img
+        class="vision"
+        src="/Addons/imgs/vision/self.jpg"
+        alt="Vision Board"
+      />
+      <section class="hidden" id="steps">
         <h1>1-3-5 Steps</h1>
         <ul>
           <li>1. Repair hair</li>
@@ -25,18 +29,24 @@
           <li>5. Repair body</li>
         </ul>
       </section>
-      <section>
+      <section class="hidden" id="detail">
         <h1>Detail about goal</h1>
       </section>
-      <section>
+      <section class="hidden" id="breakdown">
         <h1>Breaking down goal</h1>
       </section>
-      <section>
+      <section class="hidden" id="items">
         <h1>Items and Instrutions</h1>
       </section>
-      <section>
-        <h1>Prepping goal</h1>
-      </section>
+      <footer>
+        <ul class="bottom-nav">
+          <li><button class="steps-btn">1-3-5</button></li>
+          <li><button class="detail-btn">Detail</button></li>
+          <li><button class="breakdown-btn">BreakDown</button></li>
+          <li><button class="items-btn">Items</button></li>
+        </ul>
+      </footer>
     </main>
+    <script src="layout.js"></script>
   </body>
 </html>

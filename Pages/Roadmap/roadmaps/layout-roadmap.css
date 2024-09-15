@@ -21,12 +21,12 @@ nav {
   align-items: center;
 }
 
-img {
-  width: 50px;
+.hidden {
+  display: none;
 }
 
-img:hover {
-  width: 200px;
+img {
+  width: 100%;
 }
 
 main {
@@ -52,4 +52,18 @@ section {
 
 ul {
   list-style: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .bottom-nav {
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
