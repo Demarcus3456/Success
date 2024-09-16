@@ -40,6 +40,10 @@ img {
   display: none;
 }
 
+main {
+  margin-bottom: 760px;
+}
+
 /* NavBar */
 .navbar {
   background-color: bisque;
