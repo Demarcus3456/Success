@@ -4,6 +4,8 @@ const stepBack = document.querySelector(".step-back");
 const stepList = document.querySelector(".steps-list");
 const stepMenu = document.querySelector(".step-menu");
 const stepBtn = document.querySelector(".step-btn");
+const menuBtn = document.querySelector(".menu-btn");
+const menu = document.querySelector(".menu");
 
 const goals = document.querySelector(".goals");
 const life = document.querySelector(".life");
@@ -46,6 +48,12 @@ stepBack.addEventListener("click", function () {
 stepBtn.addEventListener("click", function () {
   stepMenu.classList.remove("hidden");
   stepList.classList.add("hidden");
+});
+
+/* Open menu */
+menuBtn.addEventListener("click", function () {
+  menu.classList.remove("hidden");
+  menuBtn.classList.add("hidden");
 });
 
 /* Opens step 1 */
